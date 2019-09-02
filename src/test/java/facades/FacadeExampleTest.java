@@ -17,7 +17,7 @@ import utils.EMF_Creator.Strategy;
 //Uncomment the line below, to temporarily disable this test
 //@Disabled
 public class FacadeExampleTest {
-
+/*
     private static EntityManagerFactory emf;
     private static FacadeExample facade;
 
@@ -40,7 +40,7 @@ public class FacadeExampleTest {
         ONE COMMON place accessible from anywhere.
         The file config.properties and the corresponding helper class utils.Settings is added just to do that. 
         See below for how to use these files. This is our RECOMENDED strategy
-     */
+     
     @BeforeAll
     public static void setUpClassV2() {
        emf = EMF_Creator.createEntityManagerFactory(DbSelector.TEST,Strategy.DROP_AND_CREATE);
@@ -79,5 +79,5 @@ public class FacadeExampleTest {
     public void testAFacadeMethod() {
         assertEquals(2, facade.getRenameMeCount(), "Expects two rows in the database");
     }
-
+*/
 }

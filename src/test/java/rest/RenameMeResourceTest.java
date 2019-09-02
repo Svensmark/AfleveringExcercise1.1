@@ -25,7 +25,7 @@ import utils.EMF_Creator.Strategy;
 //Uncomment the line below, to temporarily disable this test
 //@Disabled
 public class RenameMeResourceTest {
-
+/*
     private static final int SERVER_PORT = 7777;
     private static final String SERVER_URL = "http://localhost/api";
     //Read this line from a settings-file  since used several places
@@ -106,4 +106,5 @@ public class RenameMeResourceTest {
         .statusCode(HttpStatus.OK_200.getStatusCode())
         .body("count", equalTo(2));   
     }
+*/
 }
